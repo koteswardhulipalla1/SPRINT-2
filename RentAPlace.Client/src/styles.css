@@ -1,0 +1,21 @@
+html, body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #fdfaf5; /* Creamy background */
+  color: #4a4a4a;    /* Dull grey text */
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #fdfaf5; }
+::-webkit-scrollbar-thumb { background: #e8e4db; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #dcd7cc; }
+
+::selection { background: #f3e5f5; color: #6a1b9a; }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.6;
+  cursor: pointer;
+}

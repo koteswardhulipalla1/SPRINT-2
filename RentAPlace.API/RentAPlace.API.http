@@ -1,0 +1,6 @@
+@RentAPlace.API_HostAddress = http://localhost:5047
+
+GET {{RentAPlace.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
